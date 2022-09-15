@@ -1,0 +1,21 @@
+
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!define DEVICONS https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/devicons
+!define FONTAWESOME https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/font-awesome-5
+!include DEVICONS/angular.puml
+!include DEVICONS/java.puml
+!include DEVICONS/msql_server.puml
+!include FONTAWESOME/users.puml
+
+Person(user, "User", "People that need products")
+Container(mega, "Arduino Mega", "Board", "")
+Container(esp, "esp8266", "Board", "")
+Container(temp, "Sensor Temperatua","board")
+Container(clock, "Relógio","board")
+
+Rel(user, esp, "Http", "Mtehotd Get")
+Rel(esp, mega, "Serial Comunication", "TX-RX")
+Rel_R(mega, temp,"Port Digital", "1 - 2 ")
+Rel_R(mega, clock,"Port Digital", "A4, A5")
+@enduml
