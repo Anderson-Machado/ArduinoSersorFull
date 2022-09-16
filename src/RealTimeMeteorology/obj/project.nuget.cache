@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4PS0Z2D6Dz9tCojWXwnvPAqB/I73cOSAf//w3z3o8NQwZz9X0w30e3+yWD1xOEBJaNTrRzzux6NBpws3J4uEXw==",
+  "dgSpecHash": "LWPVQ72gpOtnAlkGWjj6X6tM67Aq5yqGJMDWUvW3XVKdzaLN0vRwfD3zQW+4XCaw1JbHJYS2CVd2AEU6JkjgGQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\anderson.silva\\Documents\\SENSOR_FULL\\RealTimeMeteorology\\RealTimeMeteorology.csproj",
+  "projectFilePath": "C:\\Users\\anderson.silva\\Documents\\SENSOR_FULL\\ArduinoSersorFull\\src\\RealTimeMeteorology\\RealTimeMeteorology.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anderson.silva\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\anderson.silva\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",

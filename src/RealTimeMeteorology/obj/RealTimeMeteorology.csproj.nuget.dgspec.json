@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anderson.silva\\Documents\\SENSOR_FULL\\RealTimeMeteorology\\RealTimeMeteorology.csproj": {}
+    "C:\\Users\\anderson.silva\\Documents\\SENSOR_FULL\\ArduinoSersorFull\\src\\RealTimeMeteorology\\RealTimeMeteorology.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anderson.silva\\Documents\\SENSOR_FULL\\RealTimeMeteorology\\RealTimeMeteorology.csproj": {
+    "C:\\Users\\anderson.silva\\Documents\\SENSOR_FULL\\ArduinoSersorFull\\src\\RealTimeMeteorology\\RealTimeMeteorology.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anderson.silva\\Documents\\SENSOR_FULL\\RealTimeMeteorology\\RealTimeMeteorology.csproj",
+        "projectUniqueName": "C:\\Users\\anderson.silva\\Documents\\SENSOR_FULL\\ArduinoSersorFull\\src\\RealTimeMeteorology\\RealTimeMeteorology.csproj",
         "projectName": "RealTimeMeteorology",
-        "projectPath": "C:\\Users\\anderson.silva\\Documents\\SENSOR_FULL\\RealTimeMeteorology\\RealTimeMeteorology.csproj",
+        "projectPath": "C:\\Users\\anderson.silva\\Documents\\SENSOR_FULL\\ArduinoSersorFull\\src\\RealTimeMeteorology\\RealTimeMeteorology.csproj",
         "packagesPath": "C:\\Users\\anderson.silva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anderson.silva\\Documents\\SENSOR_FULL\\RealTimeMeteorology\\obj\\",
+        "outputPath": "C:\\Users\\anderson.silva\\Documents\\SENSOR_FULL\\ArduinoSersorFull\\src\\RealTimeMeteorology\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

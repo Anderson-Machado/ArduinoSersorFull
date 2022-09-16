@@ -16,7 +16,7 @@ namespace RealTimeMeteorology.Timer
         {
             _action = action;
             _autoResetEvent = new AutoResetEvent(false);
-            _timer = new System.Threading.Timer(Execute, _autoResetEvent, 20000, 30000);
+            _timer = new System.Threading.Timer(Execute, _autoResetEvent, 10000, 20000);
             TimerStarted = DateTime.Now;
             IsTimerStarted = true;
         }
@@ -24,7 +24,7 @@ namespace RealTimeMeteorology.Timer
         public void Execute(object? stateInfo)
         {
             _action();
-            if ((DateTime.Now - TimerStarted).TotalSeconds > 60)
+            if ((DateTime.Now - TimerStarted).TotalSeconds > 360)
             {
                 IsTimerStarted = false;
                 _timer.Dispose();
